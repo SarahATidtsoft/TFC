@@ -1,12 +1,10 @@
 body {
   all: unset;
   margin: auto;
- 
 }
 
 .container {
   display: flex;
- 
 }
 
 .centered {
@@ -33,7 +31,7 @@ main {
 @media screen and (max-width: 600px) {
   #AffichageVariable {
     flex-direction: column-reverse;
-  }  
+  }
 }
 
 #mock-image {
@@ -48,7 +46,6 @@ main {
   flex-wrap: wrap;
 }
 .spaced {
-
   justify-content: center;
   gap: 25px 10px;
 }
