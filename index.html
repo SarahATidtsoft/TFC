@@ -7,26 +7,135 @@
     <link rel="stylesheet" href="./style.css" />
     <script src="script.js"></script>
   </head>
-  <body class="container centered">
-    <div id="content" style="border: 1px solid black">
-      <header background-image="images/IDEA_Idt.jpg">header</header>
 
-      <nav class="AffichageVariable">navbar</nav>
-      <div class="container centered">
-        <main>
-          <div id="mock-image">image</div>
-          <div class="container wrap spaced">
-            Le contenu de la page
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
+  <body>
+    <header>
+      <nav class="AffichageVariable">
+        <ul>
+         <img class="IconClass" src="images/idtsoft_projet_6b.png" alt="IDT Soft">
+            <a href="#accueil">ACCUEIL</a>
+          
+         
+            <a href="#solutions"> NOS SOLUTIONS</a>
+          
+          
+            <a href="#developpement">DEVELOPPEMENT</a>
+        
+      
+            <a href="#contact">CONTACTEZ-NOUS</a>
+      
+        <i class="burger"></i> 
+        </ul>
+      </nav>
+      <h1 id="acceuil">IDT Soft</h1>
+      <h2>Développement sur mesure</h2>
+      <button>NOTRE OFFRE</button>
+    </header>
+
+    <div
+      id="solutions"
+      class="container centered"
+      style="border: 1px solid rgb(185, 24, 24)"
+    >
+      <main>
+        <h3>Notre offre</h4>
+        <div class="container wrap spaced AffichageVariable">
+          <div class="card">
+            <img  class="IconClass"  src="" alt="" />
+            <h4>SARA</h4>
+            <div class="detail">Gestion de maison d'accueil - Statistiques - Cahier de communications - Gestion des dossiers - Gestion de la facturation....</div>
           </div>
-        </main>
-      </div>
-      <footer>footer</footer>
+          <div class="card">
+            <img  class="IconClass"  src="" alt="" />
+            <h4>WinCaisse</h4>
+            <div class="detail">Gestion de caisse - Multi-sites - Multi-clients - Gestion des factures - lien avec les outils de caisse (douchette, balances...) Inventaire</div>
+          </div>
+          <div class="card">
+            <img  class="IconClass"  src="" alt="" />
+            <h4>WinGes</h4>
+            <div class="detail">Gestion immobilière - Rapports annuels - Syndic - Copropriété - Facility Management - Ticketing - Facturation ...</div>
+          </div>
+          <div class="card">
+            <img  class="IconClass"  src="" alt="" />
+            <h4>WinBoul</h4>
+            <div class="detail">Gestion d'atelier boulangerie - plusieurs points de ventes en boulangerie / pâtisserie, ou en sous-traitance - Gestion des bons de livraison et des factures</div>
+          </div>
+          <div class="card">
+            <img  class="IconClass"  src="" alt="" />
+            <h4>WinGrenier</h4>
+            <div class="detail">Programme de caisse pour dépôt-vente et vide-grenier - suivi des marges des déposants, facturation, liaison avec terminal de paiement - tableaux d’analyse et rapports de ventes détaillés.</div>
+          </div>
+          <div class="card">
+            <img  class="IconClass"  src="" alt="" />
+            <h4>WinTrans</h4>
+            <div class="detail">Gestion du transport de matériaux lourds - coordination des chauffeurs, camions et livraisons - gestion des bons de commande, de livraison et des factures - application mobile dédiée pour un suivi optimal.</div>
+          </div>
+          <div class="card">
+            <img  class="IconClass"  src="" alt="" />
+            <h4>Distributeur BOB50</h4>
+            <div class="detail">Comptabilité et Gestion commerciale
+              Formation</div>
+          </div>
+          <div class="card">
+            <img  class="IconClass"  src="" alt="" />
+            <h4>Distributeur ESET</h4>
+            <div class="detail">NOD32/ Internet Security</div>
+          </div>
+          <div id="developpement" class="card">
+            <img  class="IconClass"  src="" alt="" />
+            <h4>Développement sur mesure</h4>
+            <div class="detail">LOGICIEL / APPRLICATION SUR DEMANDE
+              Vous avez un besoin spécifique;
+              Vous ne trouvez pas ce qu’il vous faut dans le commerce;
+              Vous avez imaginé une solution ;
+              CONTACTEZ-NOUS</div>
+          </div>
+        </div>
+        <div id="valeur">
+          <h3>
+            Nos valeurs
+          </h3>
+          <div class="container wrap spaced AffichageVariable">
+            <div class="card">
+              <img class="IconClass" src="images\ecoute-150x150.png" alt="Ecoute" />
+              <h4>Ecoute</h4>
+              <div class="detail">Votre logiciel est adapté à votre organisation et à vos contraintes métiers. Notre priorité: analyser vos demandes et vos besoins.</div>
+            </div>
+            <div class="card">
+              <img  class="IconClass" src="images\ergo-150x150.png" alt="Simplicité" />
+              <h4>Simplicité</h4>
+              <div class="detail">Nos logiciels sont conçus et développés en privilégiant l’ergonomie. Notre but : une utilisation simple et logique.</div>
+            </div>
+            <div class="card">
+              <img  class="IconClass" src="images\support-150x150.png" alt="Support" />
+              <h4>Support</h4>
+              <div class="detail">Nous vous accompagnons pendant toute la durée de vie de notre logiciel: conception, formation, maintenance, évolution.</div>
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
+
+    <footer>
+      <div style="background-image: url(\images\contact.jpg)">
+      <p id="contact">
+        Plus d'informations
+      </p>
+      <p>
+        Intéressé par nos solutions? Un besoin spécifique?
+      </p>
+      <p>
+        Contactez-nous
+      </p>
+      <form action="">
+        <input type="text" placeholder="Nom" />
+        <input type="text" placeholder="Prénom" />
+        <input type="text" placeholder="Email" />
+        <input type="text" placeholder="Téléphone" />
+        <textarea name="" id="" cols="30" rows="10"placeholder="Message"></textarea>
+        <button>ENVOYER</button>
+      </form>
+    </div>
+    </footer>
   </body>
 </html>
