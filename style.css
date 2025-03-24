@@ -10,31 +10,34 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 100vh;
   align-items: center;
-
+  background-color: #005d6a;
   background-image: url(/images/IDEA_Idt.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  resize: both;
 }
 
 h1 {
   text-align: center;
   color: #f8f7f6;
-  background-size: cover;
+  font-size: 2em;
+  background-position: cover;
 }
 h2 {
   text-align: center;
   color: #f8f7f6;
-  background-size: cover;
 }
 
 h3 {
   text-align: center;
   color: #263034;
-  background-size: cover;
 }
 h4 {
   text-align: center;
   color: #263034;
-  background-size: cover;
 }
 
 button {
@@ -69,6 +72,18 @@ main {
 }
 .burger {
   display: none;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: #005d6a;
+  background-image: url(/images/contact.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  resize: both;
 }
 @media screen and (max-width: 800px) {
   .AffichageVariable {
