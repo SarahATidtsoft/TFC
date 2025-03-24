@@ -19,7 +19,15 @@ header {
   background-repeat: no-repeat;
   resize: both;
 }
+#HeadBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #263034;
 
+  padding: 10px;
+  border-radius: 5px;
+}
 h1 {
   text-align: center;
   color: #f8f7f6;
@@ -44,11 +52,12 @@ button {
   background-color: #5eafba;
   color: #f8f7f6;
   border: #5eafba;
-  border-radius: 5px;
+  border-radius: 7px;
   padding: 5px 10px;
   height: 50px;
   width: 150px;
 }
+
 button:hover {
   background-color: #005d6a;
   color: #f8f7f6;
