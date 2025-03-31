@@ -14,7 +14,6 @@ header {
   align-items: center;
   background-color: #005d6a;
   background-image: url(/images/IDEA_Idt.jpg);
-  /*filter: sepia(0.5) brightness(0.64);*/
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -25,9 +24,6 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  /*background-color: #263034;*/
-
   padding: 10px;
   border-radius: 5px;
 }
@@ -84,21 +80,27 @@ button:hover {
 
 main {
   flex-grow: 1;
+  justify-items: center;
 }
 .burger {
   display: none;
 }
 footer {
   display: flex;
-  justify-content: center;
+
+  justify-content: space-around;
   height: 100vh;
-  align-items: center;
+  align-items: flex-start;
+  padding: 10%;
   background-color: #005d6a;
   background-image: url(/images/contact.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  filter: grayscale(0.2);
   resize: both;
+  color: #f8f7f6;
+  text-shadow: #263034 1px 1px 2px, 0 0 1em #263034, 0 0 0.2em #263034;
 }
 @media screen and (max-width: 800px) {
   .AffichageVariable {
@@ -121,8 +123,8 @@ footer {
   }
   nav a.burger {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 5px;
+    top: 5px;
   }
   nav a {
     float: none;
@@ -142,6 +144,19 @@ footer {
 }
 .card:hover {
   box-shadow: 0 0 2px 1px #005d6a;
+}
+
+.valeurdetail:hover {
+  color: #005d6a;
+  font-size: 1.1em;
+  text-align: center;
+  transition-behavior: smooth;
+  transition-duration: 0.5s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+
+  box-shadow: 0px 0px 30px 15px #4c6a6c;
+  margin-bottom: 5px;
 }
 .wrap {
   flex-wrap: wrap;

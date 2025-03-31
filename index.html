@@ -12,6 +12,7 @@
     <header>
       <nav class="AffichageVariable">
         <ul>
+      
          <img class="IconClass" src="images/idtsoft_projet_6b.png" alt="IDT Soft">
             <a href="#accueil">ACCUEIL</a>
           
@@ -100,17 +101,17 @@
             Nos valeurs
           </h3>
           <div class="container wrap spaced AffichageVariable">
-            <div class="card">
+            <div class="card valeurdetail">
               <img class="IconClass" src="images\ecoute-150x150.png" alt="Ecoute" />
               <h4>Ecoute</h4>
               <div class="detail">Votre logiciel est adapté à votre organisation et à vos contraintes métiers. Notre priorité: analyser vos demandes et vos besoins.</div>
             </div>
-            <div class="card">
+            <div class="card valeurdetail">
               <img  class="IconClass" src="images\ergo-150x150.png" alt="Simplicité" />
               <h4>Simplicité</h4>
               <div class="detail">Nos logiciels sont conçus et développés en privilégiant l’ergonomie. Notre but : une utilisation simple et logique.</div>
             </div>
-            <div class="card">
+            <div class="card valeurdetail">
               <img  class="IconClass" src="images\support-150x150.png" alt="Support" />
               <h4>Support</h4>
               <div class="detail">Nous vous accompagnons pendant toute la durée de vie de notre logiciel: conception, formation, maintenance, évolution.</div>
@@ -120,9 +121,9 @@
       </main>
     </div>
 
-    <footer>
-      <div style="background-image: url(\images\contact.jpg)">
-      <p id="contact">
+    <footer class="AffichageVariable">
+      <div id="contact" >
+      <p >
         Plus d'informations
       </p>
       <p>
@@ -131,12 +132,24 @@
       <p>
         Contactez-nous
       </p>
+      </div>
+      
+      <div class="container wrap spaced AffichageVariable">
+        
       <form action="">
+        <div class="container spaced">
         <input type="text" placeholder="Nom" />
         <input type="text" placeholder="Prénom" />
+      </div>
+        <div class="container spaced">
+          
         <input type="text" placeholder="Email" />
         <input type="text" placeholder="Téléphone" />
-        <textarea name="" id="" cols="30" rows="10"placeholder="Message"></textarea>
+      </div>
+      <div>
+
+        <textarea name="" id="" cols="45" rows="10"placeholder="Message"></textarea>
+      </div>
         <button>ENVOYER</button>
       </form>
     </div>
