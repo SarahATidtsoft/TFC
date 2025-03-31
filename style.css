@@ -14,6 +14,7 @@ header {
   align-items: center;
   background-color: #005d6a;
   background-image: url(/images/IDEA_Idt.jpg);
+  /*filter: sepia(0.5) brightness(0.64);*/
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -23,7 +24,9 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #263034;
+  align-items: center;
+
+  /*background-color: #263034;*/
 
   padding: 10px;
   border-radius: 5px;
@@ -31,12 +34,15 @@ header {
 h1 {
   text-align: center;
   color: #f8f7f6;
-  font-size: 2em;
+
+  text-shadow: 1px 1px 2px #263034, 0 0 1em #005d6a, 0 0 0.2em #005d6a;
+  font-size: 6em;
   background-position: cover;
 }
 h2 {
   text-align: center;
   color: #f8f7f6;
+  text-shadow: 1px 1px 2px #263034, 0 0 1em #005d6a, 0 0 0.2em #005d6a;
 }
 
 h3 {
