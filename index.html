@@ -11,26 +11,31 @@
   <body>
     <header id="accueil" class="container centered">
       <nav class="container">
-        <img id="smallLogo" src="images/idtsoft_projet_6b.png" alt="IDT Soft" />
-        <ul>
+        <img
+          id="smallLogo"
+          src="./images/idtsoft_projet_6b.png"
+          alt="IDT Soft"
+        />
+        <div>
           <a href="#accueil">ACCUEIL</a>
 
-          <a href="#solutions"> NOS SOLUTIONS</a>
+          <a href="#solutions">NOS SOLUTIONS</a>
 
           <a href="#developpement">DEVELOPPEMENT</a>
 
           <a href="#contact">CONTACTEZ-NOUS</a>
 
           <i class="burger">xx</i>
-        </ul>
+        </div>
       </nav>
       <div id="HeadBox" class="container centered">
         <h1>IDT Soft</h1>
         <h2>Développement sur mesure</h2>
-        <p></p>
-        <p></p>
+
         <div>
-          <a href="#solutions"><button>NOTRE OFFRE</button> </a>
+          <button onclick="window.location.href = '#solutions';">
+            NOTRE OFFRE
+          </button>
         </div>
       </div>
     </header>
@@ -40,7 +45,7 @@
         <h3>Notre offre</h3>
         <div class="container wrap spaced AffichageVariable">
           <div class="card">
-            <img class="IconClass" src="images/accueil.png" alt="" />
+            <img class="IconClass" src="./images/accueil.png" alt="" />
 
             <h4>SARA</h4>
             <div class="detail">
@@ -50,7 +55,7 @@
             </div>
           </div>
           <div class="card">
-            <img class="IconClass" src="images/caisse.png" alt="" />
+            <img class="IconClass" src="./images/caisse.png" alt="" />
 
             <h4>WinCaisse</h4>
             <div class="detail">
@@ -60,7 +65,7 @@
             </div>
           </div>
           <div class="card">
-            <img class="IconClass" src="images/ges.png" alt="" />
+            <img class="IconClass" src="./images/ges.png" alt="" />
             <h4>WinGes</h4>
             <div class="detail">
               Gestion immobilière - Rapports annuels - Syndic - Copropriété -
@@ -68,7 +73,7 @@
             </div>
           </div>
           <div class="card">
-            <img class="IconClass" src="images/boul.png" alt="" />
+            <img class="IconClass" src="./images/boul.png" alt="" />
             <h4>WinBoul</h4>
             <div class="detail">
               Gestion d'atelier boulangerie - plusieurs points de ventes en
@@ -77,7 +82,7 @@
             </div>
           </div>
           <div class="card">
-            <img class="IconClass" src="images/grenier.png" alt="" />
+            <img class="IconClass" src="./images/grenier.png" alt="" />
             <h4>WinGrenier</h4>
             <div class="detail">
               Programme de caisse pour dépôt-vente et vide-grenier - suivi des
@@ -86,7 +91,7 @@
             </div>
           </div>
           <div class="card">
-            <img class="IconClass" src="images/transport.png" alt="" />
+            <img class="IconClass" src="./images/transport.png" alt="" />
             <h4>WinTrans</h4>
             <div class="detail">
               Gestion du transport de matériaux lourds - coordination des
@@ -96,19 +101,19 @@
             </div>
           </div>
           <div class="card">
-            <img class="IconClass" src="images/bob.png" alt="" />
+            <img class="IconClass" src="./images/bob.png" alt="" />
             <h4>Distributeur BOB50</h4>
             <div class="detail">
               Comptabilité et Gestion commerciale Formation
             </div>
           </div>
           <div class="card">
-            <img class="IconClass" src="images/eset.png" alt="" />
+            <img class="IconClass" src="./images/eset.png" alt="" />
             <h4>Distributeur ESET</h4>
             <div class="detail">NOD32/ Internet Security</div>
           </div>
           <div id="developpement" class="card">
-            <img class="IconClass" src="images/dev.png" alt="" />
+            <img class="IconClass" src="./images/dev.png" alt="" />
             <h4>Développement sur mesure</h4>
             <div class="detail">
               LOGICIEL / APPRLICATION SUR DEMANDE Vous avez un besoin
@@ -123,7 +128,7 @@
             <div class="card valeurdetail">
               <img
                 class="IconClass"
-                src="images\ecoute-150x150.png"
+                src="./images/ecoute-150x150.png"
                 alt="Ecoute"
               />
               <h4>Ecoute</h4>
@@ -136,7 +141,7 @@
             <div class="card valeurdetail">
               <img
                 class="IconClass"
-                src="images\ergo-150x150.png"
+                src="./images/ergo-150x150.png"
                 alt="Simplicité"
               />
               <h4>Simplicité</h4>
@@ -148,7 +153,7 @@
             <div class="card valeurdetail">
               <img
                 class="IconClass"
-                src="images\support-150x150.png"
+                src="./images/support-150x150.png"
                 alt="Support"
               />
               <h4>Support</h4>
@@ -172,7 +177,7 @@
           <h5>Contactez-nous</h5>
         </div>
         <div id="formBox">
-          <form action="">
+          <form>
             <div class="container">
               <input
                 name="fPrenom"
@@ -213,7 +218,12 @@
               ></textarea>
             </div>
             <div class="container centered">
-              <button>ENVOYER</button>
+              <input
+                id="BtnEnvoyer"
+                type="submit"
+                onclick="alert('Merci! Votre message a bien été envoyé. Nous vous contacterons dans les plus brefs délais.');"
+                value="Envoyer"
+              />
             </div>
           </form>
         </div>

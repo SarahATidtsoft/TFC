@@ -47,6 +47,7 @@ h1 {
 h2 {
   color: #f8f7f6;
   text-shadow: 1px 1px 2px #263034, 0 0 1em #005d6a, 0 0 0.2em #005d6a;
+  margin-bottom: 135px;
 }
 
 button {
@@ -67,28 +68,30 @@ button:hover {
 #smallLogo {
   max-width: 90px;
   max-height: 25px;
-  margin-top: 12px;
+  margin: 0 10px;
 }
 nav {
   background-color: #f8f7f6;
   position: fixed;
+  height: 50px;
   top: 0;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
 }
 
 nav a {
   color: #263034;
-  padding: 14px;
   text-decoration: none;
   font-size: 0.8em;
+  padding: 15px;
 }
 
 nav a:hover {
   background-color: #005e6a96;
   color: #f8f7f6;
   border-radius: 5px;
-  transition-duration: 0.65s;
+  transition-duration: 0.45s;
   transition-timing-function: ease-in-out;
 }
 
@@ -198,6 +201,16 @@ h5 {
   border-bottom: #005d6a 2px solid;
   background-color: #5eafba10;
 }
+#BtnEnvoyer {
+  background-color: #5eafba;
+  width: 200px;
+  color: #f8f7f6;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: bolder;
+}
 .AffichageVariable {
   max-width: 1400px; /*limite a 4 elements par ligne*/
 }
@@ -205,22 +218,14 @@ h5 {
   .AffichageVariable {
     justify-content: space-around;
   }
-  nav a:not(:last-child) {
-    display: none;
-  }
-  nav a:last-child {
-    display: block;
-  }
 }
+
 @media screen and (max-width: 600px) {
   .AffichageVariable {
     flex-direction: column;
   }
   .FormContact {
     padding: 4%;
-  }
-  nav a:not(:last-child) {
-    display: none;
   }
   nav a.burger {
     position: absolute;
@@ -232,7 +237,11 @@ h5 {
     display: none;
   }
   h1 {
-    font-size: 1.5em;
+    font-size: 1.8em;
+  }
+  h2 {
+    font-size: 1.02em;
+    margin-bottom: 100px;
   }
   .card {
     width: 250px;
