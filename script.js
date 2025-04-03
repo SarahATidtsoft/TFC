@@ -1,29 +1,17 @@
-
-
-function addDivc (){
-  let divSup = document.createElement('div');
-  let maVar = document.getElementById('ajout').value;
-  if (maVar=="")
-  {
-    divSup.innerHTML="vide";
-    let div1c = document.getElementById('div1').appendChild(divSup);
-  } 
-  else{
-
-  if (isNaN(parseInt(maVar))){
-  
-    divSup.innerHTML="pas un chiffre";
-    let div1c = document.getElementById('div1').appendChild(divSup);
-  }
-  
-else{
- 
-  {
-    for(let i=1; i<=parseInt(maVar); i++)  {
-      divSup=document.createElement('div')
-      divSup.innerHTML="Hello world";
-      let div1c = document.getElementById('div1').appendChild(divSup);
-   
-    };
-  }
-}}}
+document.addEventListener("DOMContentLoaded", () => {
+  const burger = document.getElementById("burger");
+  const navLinks = document.getElementById("nav-links");
+  const navbar = document.getElementById("navbar");
+  burger.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+    burger.classList.toggle("show");
+    navbar.classList.toggle("show");
+    /*alert("Burger menu clicked!");*/
+  });
+  navLinks.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+    burger.classList.toggle("show");
+    navbar.classList.toggle("show");
+    /*alert("Burger menu clicked!");*/
+  });
+});

@@ -10,13 +10,13 @@
 
   <body>
     <header id="accueil" class="container centered">
-      <nav class="container">
+      <nav id="navbar" class="container">
         <img
           id="smallLogo"
           src="./images/idtsoft_projet_6b.png"
           alt="IDT Soft"
         />
-        <div>
+        <div id="navbarWide">
           <a href="#accueil">ACCUEIL</a>
 
           <a href="#solutions">NOS SOLUTIONS</a>
@@ -24,9 +24,16 @@
           <a href="#developpement">DEVELOPPEMENT</a>
 
           <a href="#contact">CONTACTEZ-NOUS</a>
-
-          <i class="burger">xx</i>
         </div>
+
+        <button id="burger"></button>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#accueil">ACCUEIL</a></li>
+          <li><a href="#solutions">NOS SOLUTIONS</a></li>
+          <li><a href="#developpement">DEVELOPPEMENT</a></li>
+          <li><a href="#contact">CONTACTEZ-NOUS</a></li>
+        </ul>
       </nav>
       <div id="HeadBox" class="container centered">
         <h1>IDT Soft</h1>
