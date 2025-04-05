@@ -237,7 +237,7 @@ h5 {
   max-width: 1400px; /*limite a 4 elements par ligne*/
 }
 @media (prefers-color-scheme: dark) {
-  .burgerline {
+  .burgerline.adaptative {
     background-color: #f8f7f6;
   }
 }
