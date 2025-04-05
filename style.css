@@ -236,11 +236,6 @@ h5 {
 .AffichageVariable {
   max-width: 1400px; /*limite a 4 elements par ligne*/
 }
-@media (prefers-color-scheme: dark) {
-  .burgerline.adaptative {
-    background-color: #f8f7f6;
-  }
-}
 @media screen and (max-width: 800px) {
   .AffichageVariable {
     justify-content: space-around;
