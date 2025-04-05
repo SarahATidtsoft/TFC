@@ -28,7 +28,7 @@ header {
   height: 100vh;
   align-items: center;
   background-color: #005d6a;
-  background-image: url(/images/IDEA_Idt.jpg);
+  background-image: url(images/idea_idt.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -100,7 +100,7 @@ nav a:hover {
   display: none;
   flex-direction: column;
 }
-.burger {
+.burgerline {
   width: 35px;
   max-width: 35px;
   height: 5px;
@@ -168,7 +168,7 @@ h4 {
   justify-items: center;
   padding: 10%;
   background-color: #005d6a;
-  background-image: url(/images/contact.jpg);
+  background-image: url(/images/contact.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
