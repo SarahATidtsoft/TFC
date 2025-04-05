@@ -246,7 +246,7 @@ h5 {
     flex-direction: row-reverse;
   }
   nav a {
-    padding: 0;
+    padding: 3px;
   }
 }
 
