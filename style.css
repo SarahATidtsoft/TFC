@@ -169,8 +169,8 @@ h4 {
   padding: 10%;
   background-color: #005d6a;
   background-image: url(/images/contactimg.png);
-  background-size: cover;
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   filter: grayscale(0.2);
   resize: both;
