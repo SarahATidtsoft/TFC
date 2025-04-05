@@ -258,7 +258,7 @@ h5 {
     padding: 4%;
   }
   #formBox {
-    width: 80vh;
+    max-width: 400px;
   }
   h1 {
     font-size: 1.8em;
