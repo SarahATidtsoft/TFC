@@ -26,7 +26,11 @@
           <a href="#contact">CONTACTEZ-NOUS</a>
         </div>
 
-        <button id="burger"></button>
+        <div id="burger">
+          <div class="burger"></div>
+          <div class="burger"></div>
+          <div class="burger"></div>
+        </div>
 
         <ul class="nav-links" id="nav-links">
           <li><a href="#accueil">ACCUEIL</a></li>
@@ -175,7 +179,7 @@
     </div>
 
     <div class="AffichageVariable FormContact container">
-      <div id="contact">
+      <div id="contact" class="container">
         <p>Plus d'informations</p>
         <p>Intéressé par nos solutions? Un besoin spécifique?</p>
       </div>
@@ -184,7 +188,11 @@
           <h5>Contactez-nous</h5>
         </div>
         <div id="formBox">
-          <form>
+          <form
+            action="mailto:sarah@idtsoft.be"
+            method="post"
+            enctype="text/plain"
+          >
             <div class="container">
               <input
                 name="fPrenom"

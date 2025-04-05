@@ -98,7 +98,15 @@ nav a:hover {
 }
 #burger {
   display: none;
-  width: 50px;
+  flex-direction: column;
+}
+.burger {
+  width: 35px;
+  max-width: 35px;
+  height: 5px;
+  max-height: 15px;
+  background-color: #005d6a;
+  margin: 3px 0;
 }
 .nav-links {
   display: none;
@@ -169,6 +177,14 @@ h4 {
   color: #f8f7f6;
   text-shadow: #263034 1px 1px 2px, 0 0 1em #263034, 0 0 0.2em #263034;
 }
+#contact {
+  display: flex;
+  justify-content: top;
+  align-items: left;
+  flex-direction: column;
+  margin-top: 55px;
+  padding: 15px;
+}
 h5 {
   margin-bottom: -15px;
   color: #f8f7f6;
@@ -225,7 +241,8 @@ h5 {
   }
 
   .FormContact {
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-direction: row-reverse;
   }
   nav a {
     padding: 0;
