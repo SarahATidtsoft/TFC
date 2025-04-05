@@ -258,7 +258,14 @@ h5 {
     padding: 4%;
   }
   #formBox {
-    max-width: 400px;
+    max-width: 200px;
+  }
+  .FormField {
+    flex-grow: 0;
+    width: auto;
+  }
+  h5 {
+    width: 200px;
   }
   h1 {
     font-size: 1.8em;
